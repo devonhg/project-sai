@@ -1,0 +1,17 @@
+/.Xauthority
+/.bash_history
+/.bash_logout
+/.bashrc
+/.cache/
+/.config/
+/.gimp-2.8/
+/.local/
+/.pki/
+/.profile
+/.themes/
+/.thumbnails/
+/.xsession-errors
+/.xsession-errors.old
+/python_games
+/Desktop/videoslides
+checkusb.sh

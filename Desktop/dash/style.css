@@ -1,0 +1,22 @@
+html,
+body{
+	height: 100%; 
+	padding: 0;
+	margin: 0;
+	display: block;
+	overflow: hidden; 
+}body{
+	background: url("bg.jpg")
+}
+
+.wrapper{
+	margin-top: 25%;
+	height: 50%;
+	color: white:
+}
+
+.content{
+	color: white;
+	text-align: center; 
+	height: 100%;
+}

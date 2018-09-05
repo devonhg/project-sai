@@ -1,0 +1,5 @@
+Set up Weave
+	sudo weavedinstaller
+
+Configure startup
+	/home/pi/.config/lxsession/LXDE-pi/autostart ##Edit this file
