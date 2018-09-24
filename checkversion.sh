@@ -1,6 +1,6 @@
 #!/bin/sh
 
-version="0.8"
+version="0.86"
 
 echo "5Star Video System v.$version"
 
