@@ -1,7 +1,8 @@
 #!/bin/bash
 
 chromium-browser file:///home/pi/Desktop/dash/index.html --kiosk --start-maximized &
-#sh ./playclientvideos.sh&sh ./playfsvideos.sh
+echo "We just ran!";
+sh ./playclientvideos.sh&sh ./playfsvideos.sh
 
 
 
