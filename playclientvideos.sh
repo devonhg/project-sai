@@ -14,7 +14,6 @@ duration=0;
 
 # now for our infinite loop!
 while true; do
-        #if ps ax | grep -v grep | grep $SERVICE > /dev/null
         if ps ax | grep -v grep | duration > 0
         then
         #sleep .01;
