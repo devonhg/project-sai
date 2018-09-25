@@ -1,8 +1,6 @@
-#!/bin/sh
+#!/bin/bash
 
-#Run Scripts and Software
-#sh ./refreshvids.sh
-#sh ./clientvideoplayer.sh
+sh ./log.sh "Running fullscreen"
 
 # get rid of the cursor so we don't see it when videos are running
 setterm -cursor off
@@ -21,22 +19,15 @@ echo "Files Loaded"
 # now for our infinite loop!
 while true; do
         if ps ax | grep -v grep | grep $SERVICE > /dev/null 
-        #if ! screen -list | grep -q "camera1" | ps ax | grep -v grep | grep $SERVICE > /dev/null 
         then
         sleep .1;
 else
         for entry in $VIDEOPATH/*
         do
-                clear
-                
-                omxplayer -o hdmi $entry > /dev/null -b
-                #omxplayer --win '0 0 960 720' $entry
-                echo "Playing Video";
-                #omxplayer --win '0 0 960 720' $entry
-                #screen -dmS camera1 sh -c "omxplayer --win '0 0 960 720' $entry"
-
-		count=$((count+1))
-		echo $count
+			clear              
+			omxplayer -o hdmi $entry > /dev/null -b
+			echo "Playing Video"
+			count=$((count+1))
 
 		if [ "$count" = "$files" ]
 		then
