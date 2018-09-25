@@ -34,7 +34,6 @@ else
 			echo "we are looping now"
 			count=0
 			files=$( find $VIDEOPATH -maxdepth 1 -type f -printf . | wc -c )
-			#sh ./refreshvids.sh
 		fi
         done
 fi

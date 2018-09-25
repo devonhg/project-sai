@@ -10,7 +10,7 @@ VIDEOPATH="/home/pi/Desktop/videoslides/client"
 
 files=$( find $VIDEOPATH -maxdepth 1 -type f -printf . | wc -c )
 count=0
-duration=0; 
+duration=0
 
 # now for our infinite loop!
 while true; do
@@ -24,6 +24,7 @@ else
         do
 			clear
 			duration=$(mediainfo --Inform="General;%Duration%" $entry)
+			waiting=1
 			omxplayer --win '1313 0 1920 1080' $entry
 			count=$((count+1))
 
