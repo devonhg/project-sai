@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sh ./log.sh "Running FS Videos"
+sh /home/pi/project-sai/log.sh "Running FS Videos"
 
 # get rid of the cursor so we don't see it when videos are running
 setterm -cursor off

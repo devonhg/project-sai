@@ -6,9 +6,11 @@ sh ./log.sh "Running test"
 
 #duration=$(ffmpeg -i "/home/pi/Desktop/videoslides/live/6pft_ad.mp4" 2>&1 | grep Duration | cut -d ' ' -f 4 | sed s/,//)
 
-duration=$(mediainfo --Inform="General;%Duration%" /home/pi/Desktop/videoslides/live/10_missing.mp4)
+#duration=$(mediainfo --Inform="General;%Duration%" /home/pi/Desktop/videoslides/live/10_missing.mp4)
 
-echo "$duration"
+#echo "$duration"
+
+sh /home/pi/project-sai/playclientvideos.sh
 
 #chromium-browser file:///home/pi/Desktop/dash/index.html --kiosk --start-maximized &
 #echo "We just ran!";

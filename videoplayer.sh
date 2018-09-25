@@ -5,15 +5,15 @@
 
 #END config
 
-sh ./log.sh "Initiating Videos"
+sh /home/pi/project-sai/log.sh "Initiating Videos"
 
 
 if $multiscreen; then
 	#Multiscreen
-	sh ./playclientvideos.sh&sh ./playfsvideos.sh
+	sh /home/pi/project-sai/playclientvideos.sh&sh /home/pi/project-sai/playfsvideos.sh
 else
 	#Fullscreen
-	sh ./fullvideoplayer.sh
+	sh /home/pi/project-sai/fullvideoplayer.sh
 fi
 
-sh ./log.sh "Videos complete"
+sh /home/pi/project-sai/log.sh "Videos complete"
