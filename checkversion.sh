@@ -1,8 +1,8 @@
 #!/bin/bash
 
-version="1.3.4"
+version="1.3.5"
 
-echo "5Star Video System v.$version"
+#echo "5Star Video System v.$version"
 
-sh /home/pi/project-sai/log.sh "Version checked: v.$version"
+sh /home/pi/project-sai/log.sh "v.$version"
 
