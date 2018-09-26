@@ -1,6 +1,6 @@
 #!/bin/bash
 
-version="1.3.3"
+version="1.3.4"
 
 echo "5Star Video System v.$version"
 
