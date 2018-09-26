@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Set this value to true for multi-screen, false for full screen
-	multiscreen=false
+	multiscreen=$1
 
 #END config
 
