@@ -6,7 +6,8 @@ body{
 	display: block;
 	overflow: hidden; 
 }body{
-	background: url("bg.jpg")
+	/*background: url("bg.jpg")*/
+	background-color: black;
 }
 
 .wrapper{
@@ -15,8 +16,10 @@ body{
 	color: white:
 }
 
-.content{
-	color: white;
-	text-align: center; 
-	height: 100%;
+#content{
+	position: fixed;
+	bottom: 0;
+	left: 15px;
+	color: white !important; 
+	font-size: 30px; 
 }
